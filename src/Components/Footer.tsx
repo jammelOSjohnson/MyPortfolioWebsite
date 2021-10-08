@@ -10,7 +10,7 @@ export const Footer: React.FC = function Footer() {
     return (
         <>
             <div>
-                Copyright ©2021, Urged. All Rights Reserved.
+                Copyright ©2021, JOSJ. All Rights Reserved.
             </div>
         </>
     )

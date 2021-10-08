@@ -16,9 +16,9 @@ import { useEffect } from 'react';
 
 
 const App: React.FC = function App() {
-  useEffect(() =>{
-    document.body.style.backgroundColor = "#fff"
-  })
+  // useEffect(() =>{
+  //   document.body.style.backgroundColor = "#fff"
+  // })
 
   return (
     <>
