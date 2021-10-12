@@ -6,9 +6,6 @@ import { Footer } from './Footer';
 //Import provider
 
 
-import { useEffect } from 'react';
-
-
 
 
 
