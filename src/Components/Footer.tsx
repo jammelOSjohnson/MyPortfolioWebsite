@@ -8,7 +8,7 @@ export const Footer: React.FC = function Footer() {
     
     return (
         <>
-            <div>
+            <div className="dark:bg-black dark:text-white">
                 Copyright ©2021, JOSJ. All Rights Reserved.
             </div>
         </>
