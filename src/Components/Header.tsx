@@ -52,7 +52,7 @@ export const Header: React.FC = function Header() {
                             {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                             <a href="#" className="bg-green-400 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">HOME</a>
 
-                            <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
+                            <a href="#About" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
 
                             <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SKILLS</a>
 
