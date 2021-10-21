@@ -10,7 +10,7 @@ interface Props {
 export const Section3: React.FC = function Section3() {
     return (
         <>
-            <div id="Personal" className="xs:px-5 md:mx-0 md:w-2/3 mx-auto my-0 relative z-0 dark:bg-black">
+            <div id="Personal" className="xs:px-5 md:mx-0 w-full mx-auto my-0 relative z-0 dark:bg-black">
                 
                <h1 className="text-black dark:text-white font-bold">Personal Details</h1>
                <p className="text-green-400 dark:text-white max-w-screen-sm mx-0 my-3 font-semibold">

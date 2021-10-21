@@ -19,7 +19,7 @@ export const Section2: React.FC = function Section2() {
                     xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-               <p className="text-black dark:text-white text-center font-bold">About Me</p>
+               <p className="text-black dark:text-white text-center font-bold text-2xl">About Me</p>
                <p className="text-black dark:text-white py-3 xs:px-5 sm:px-5">
                     An ambitious individual who desires to obtain a challenging career 
                     position. Always adaptable to new environments, changes, and challenges.

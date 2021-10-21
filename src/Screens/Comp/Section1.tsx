@@ -20,7 +20,7 @@ export const Section1: React.FC = function Section1() {
                     </span> */}
                     <div className="rounded-full">
                         <span className="xs:animate-ping sm:animate-none sm:hidden absolute inline-flex h-24 w-2/3 rounded-full bg-green-200 opacity-75"></span>
-                        <span className="xs:animate-none sm:animate-ping xs:hidden sm:flex absolute inline-flex h-20 w-16 rounded-full bg-green-200 opacity-75"></span>
+                        <span className="xs:animate-none sm:animate-ping xs:hidden sm:flex absolute inline-flex h-24 w-24 rounded-full bg-green-200 opacity-75"></span>
                         <img className="block mx-auto h-24 rounded-full sm:mx-0 lg:flex-shrink-0 z-10" src={profilePic} alt="man's Face" />
                     </div>
                     
