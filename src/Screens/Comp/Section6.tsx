@@ -15,7 +15,7 @@ export const Section6: React.FC = function Section6() {
     return (
         <>
             <div id="Personal" className="xs:px-5 md:mx-0 md:w-full mx-auto my-0 relative z-0 dark:bg-black border-none dark:border-none">
-                <h1 className="text-black dark:text-white font-bold">Portfolio</h1>
+                <h1 className="text-black dark:text-white font-bold text-center font-bold text-2xl py-3"><span className='text-green-400'>&lt;</span> Portfolio <span className='text-green-400'>/&gt;</span></h1>
                 <div className="grid xs:grid-cols-2 sm:grid-cols-4 gap-4 border-none dark:border-none">
                     <a id="portfolio" href='https://urgedinternational.com/' target={'_blank'} title='MGK'>
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer card-height">
@@ -42,7 +42,7 @@ export const Section6: React.FC = function Section6() {
                         </div>
                     </a>
                 </div>
-                <a href='https://www.twps.myguardiangroup.com/' target={'_blank'} title='gll'>
+                <a href='https://twps.myguardiangroup.com/' target={'_blank'} title='gll'>
                     <div className="xs:px-5 xs:mx-auto xs:w-3-1/2 md:mx-auto md:w-1/2 lg:w-1/2 lg:mx-auto my-0 relative z-0 dark:bg-black border-none dark:border-none">
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer mx-auto my-3">
                             <img className="mx-auto w-20" src={gll} alt="gllim" />
