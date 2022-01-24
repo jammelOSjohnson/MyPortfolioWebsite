@@ -50,17 +50,13 @@ export const Header: React.FC = function Header() {
                         <div className="hidden sm:block sm:ml-6">
                         <div className="flex space-x-4">
                             {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                            <a href="#" className="bg-green-400 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">HOME</a>
+                            <a href="/" className="bg-green-400 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">HOME</a>
 
                             <a href="#About" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
 
-                            <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SKILLS</a>
+                            <a href="#resume" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">RESUME</a>
 
-                            <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">RESUME</a>
-
-                            <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PORTFOLIO</a>
-
-                            <a href="#" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
+                            <a href="#portfolio" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">PORTFOLIO</a>
                         </div>
                         </div>
                     </div>
@@ -99,17 +95,13 @@ export const Header: React.FC = function Header() {
                 <div className={`${display} sm:hidden`} id="mobile-menu">
                     <div className="px-2 pt-2 pb-3 space-y-1">
                         {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                        <a href="#" className="bg-green-400 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">HOME</a>
+                        <a href="/" className="bg-green-400 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">HOME</a>
 
                         <a href="#About" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">ABOUT</a>
 
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">SKILLS</a>
+                        <a href="#resume" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">RESUME</a>
 
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">RESUME</a>
-
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">PORTFOLIO</a>
-
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">CONTACT</a>
+                        <a href="#portfolio" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">PORTFOLIO</a>
                     </div>
                 </div>
                 
