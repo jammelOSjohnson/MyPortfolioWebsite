@@ -1,5 +1,5 @@
 import React from 'react';
-import runningPic from '../../Images/man-running-white-icon.png';
+//import runningPic from '../../Images/man-running-white-icon.png';
 import urged from '../../Images/urged logo white.svg';
 import mgk from '../../Images/MKXPRESS-Final-Edited-2.png';
 import ncb from '../../Images/ncb-logo-white.svg';
@@ -7,9 +7,9 @@ import rhh from '../../Images/RHH.png';
 import gll from '../../Images/gll.png';
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section6: React.FC = function Section6() {
     return (
@@ -17,32 +17,32 @@ export const Section6: React.FC = function Section6() {
             <div id="Personal" className="xs:px-5 md:mx-0 md:w-full mx-auto my-0 relative z-0 dark:bg-black border-none dark:border-none">
                 <h1 className="text-black dark:text-white font-bold text-center font-bold text-2xl py-3"><span className='text-green-400'>&lt;</span> Portfolio <span className='text-green-400'>/&gt;</span></h1>
                 <div className="grid xs:grid-cols-2 sm:grid-cols-4 gap-4 border-none dark:border-none">
-                    <a id="portfolio" href='https://urgedinternational.com/' target={'_blank'} title='MGK'>
+                    <a id="portfolio" href='https://urgedinternational.com/' target={'_blank'} rel="noreferrer" title='MGK'>
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer card-height">
                             <img className="mx-auto" src={urged} alt="urgedim" />
                             <h4 className="text-center font-bold">Urged International</h4>
                         </div>
                     </a>
-                    <a href='https://mgkexpress.com/' target={'_blank'} title='MGK'>
+                    <a href='https://mgkexpress.com/' target={'_blank'} rel="noreferrer" title='MGK'>
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer card-height">
                                 <img className="mx-auto w-20" src={mgk} alt="mgkim" />
                                 <h4 className="text-center font-bold">MGK Express</h4>
                         </div>
                     </a>
-                    <a href='https://managemycard.jncb.com/' target={'_blank'} title='managemycard'>
+                    <a href='https://managemycard.jncb.com/' target={'_blank'} rel="noreferrer" title='managemycard'>
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer card-height">
                             <img className="mx-auto w-1/2 h-1/2" src={ncb} alt="mgkim" />
                             <h4 className="text-center font-bold">NCB Credit C Portal</h4>
                         </div>
                     </a>
-                    <a href='https://realhelpinghands.com/' target={'_blank'} title='RHH'>
+                    <a href='https://realhelpinghands.com/' target={'_blank'} rel="noreferrer" title='RHH'>
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer card-height">
                             <img className="mx-auto w-1/2 h-1/2" src={rhh} alt="mgkim" />
                             <h4 className="text-center font-bold">RHH</h4>
                         </div>
                     </a>
                 </div>
-                <a href='https://twps.myguardiangroup.com/' target={'_blank'} title='gll'>
+                <a href='https://twps.myguardiangroup.com/' target={'_blank'} rel="noreferrer" title='gll'>
                     <div className="xs:px-5 xs:mx-auto xs:w-3-1/2 md:mx-auto md:w-1/2 lg:w-1/2 lg:mx-auto my-0 relative z-0 dark:bg-black border-none dark:border-none">
                         <div className="bg-green-400 dark:bg-black border border-transparent  dark:border-green-400 hover:border-green-400 hover:bg-white hover:text-green-400 text-white rounded-md py-3 cursor-pointer mx-auto my-3">
                             <img className="mx-auto w-20" src={gll} alt="gllim" />
@@ -51,7 +51,7 @@ export const Section6: React.FC = function Section6() {
                     </div>
                 </a>
                 <div className="py-3 dark:border-none">
-                    <a href="https://drive.google.com/file/d/1usrJa2oCMl5kaPJjIpouG58Af9zMJggr/view?usp=sharing" title="resume" target={'_blank'}>
+                    <a href="https://drive.google.com/file/d/1usrJa2oCMl5kaPJjIpouG58Af9zMJggr/view?usp=sharing" title="resume" target={'_blank'} rel="noreferrer">
                         <button
                             id="resume"
                             type="submit"

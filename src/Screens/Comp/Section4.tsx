@@ -2,9 +2,9 @@ import React from 'react';
 import runningPic from '../../Images/man-running-white-icon.png';
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section4: React.FC = function Section4() {
     return (

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section5: React.FC = function Section5() {
     const [skill1, setSkill1] = useState(90);

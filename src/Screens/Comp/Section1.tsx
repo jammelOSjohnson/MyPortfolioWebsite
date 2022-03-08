@@ -1,12 +1,12 @@
 import React from 'react';
 import heroImage from '../../Images/heroImage.jpg';
-import profilePic from '../../Images/profilepic.jpg';
+//import profilePic from '../../Images/profilepic.jpg';
 import me from '../../Images/me.jpg'; 
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section1: React.FC = function Section1() {
     return (
@@ -34,7 +34,7 @@ export const Section1: React.FC = function Section1() {
                             Software Engineer
                         </p>
                         </div>
-                        <a href="https://twitter.com/j_0_s_j" title="my twitter" target={'_blank'}>
+                        <a href="https://twitter.com/j_0_s_j" title="my twitter" target={'_blank'} rel="noreferrer">
                             <button className="px-4 py-1 text-sm text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-green-600 hover:border-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 z-10">
                                 Message
                             </button>

@@ -1,11 +1,11 @@
 import React from 'react';
-import heroImage from '../../Images/heroImage.jpg';
-import profilePic from '../../Images/profilepic.jpg';
+//import heroImage from '../../Images/heroImage.jpg';
+//import profilePic from '../../Images/profilepic.jpg';
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section2: React.FC = function Section2() {
     return (
