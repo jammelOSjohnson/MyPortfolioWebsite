@@ -1,11 +1,12 @@
 import React from 'react';
 import heroImage from '../../Images/heroImage.jpg';
-import profilePic from '../../Images/profilepic.jpg';
+//import profilePic from '../../Images/profilepic.jpg';
+import me from '../../Images/me.jpg'; 
 
 
-interface Props {
+// interface Props {
     
-}
+// }
 
 export const Section1: React.FC = function Section1() {
     return (
@@ -20,8 +21,8 @@ export const Section1: React.FC = function Section1() {
                     </span> */}
                     <div className="rounded-full">
                         <span className="xs:animate-ping sm:animate-none sm:hidden absolute inline-flex h-24 w-2/3 rounded-full bg-green-200 opacity-75"></span>
-                        <span className="xs:animate-none sm:animate-ping xs:hidden sm:flex absolute inline-flex h-20 w-16 rounded-full bg-green-200 opacity-75"></span>
-                        <img className="block mx-auto h-24 rounded-full sm:mx-0 lg:flex-shrink-0 z-10" src={profilePic} alt="man's Face" />
+                        <span className="xs:animate-none sm:animate-ping xs:hidden sm:flex absolute inline-flex h-24 w-24 rounded-full bg-green-200 opacity-75"></span>
+                        <img className="block mx-auto h-24 rounded-full sm:mx-0 lg:flex-shrink-0 z-10" src={me} alt="man's Face" />
                     </div>
                     
                     <div className="text-center space-y-2 sm:text-left z-10">
@@ -33,7 +34,11 @@ export const Section1: React.FC = function Section1() {
                             Software Engineer
                         </p>
                         </div>
-                        <button className="px-4 py-1 text-sm text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-green-600 hover:border-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 z-10">Message</button>
+                        <a href="https://twitter.com/j_0_s_j" title="my twitter" target={'_blank'} rel="noreferrer">
+                            <button className="px-4 py-1 text-sm text-white font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-green-600 hover:border-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 z-10">
+                                Message
+                            </button>
+                        </a>
                     </div>
                 </div>
             
