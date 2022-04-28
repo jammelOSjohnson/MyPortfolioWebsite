@@ -22,11 +22,11 @@ const App: React.FC = function App() {
   return (
     <>
       <Router>
-        {/* <Header/> */}
+        <Header/>
           <Route path="/" exact component={HomeScreen} />
           <Route path="/Counter" exact component={Counter} />
           <Route path="/TodoList" exact component={TodoList} />
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     </>
   );

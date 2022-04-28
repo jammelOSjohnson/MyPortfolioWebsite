@@ -51,7 +51,7 @@ export const Section6: React.FC = function Section6() {
                     </div>
                 </a>
                 <div className="py-3 dark:border-none">
-                    <a href="https://drive.google.com/file/d/1usrJa2oCMl5kaPJjIpouG58Af9zMJggr/view?usp=sharing" title="resume" target={'_blank'} rel="noreferrer">
+                    <a href="https://docs.google.com/document/d/1kcbbPw5azosirUWVE_ziLeCmSXuWLjzw/edit?usp=sharing&ouid=102350862374533348303&rtpof=true&sd=true" title="resume" target={'_blank'} rel="noreferrer">
                         <button
                             id="resume"
                             type="submit"

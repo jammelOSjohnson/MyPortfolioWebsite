@@ -23,7 +23,7 @@ export default class TodoList extends Component<props, Istate> {
     handleClick = (e: any, ) => {
         e.preventDefault()
         let arr = this.state.todoList;
-        if(this.state.inputval != ""){
+        if(this.state.inputval !== ""){
             arr.push(this.state.inputval);
             let count = this.state.completed + 1;
             this.setState({completed: count,inputval: "", todoList: arr});
@@ -66,7 +66,7 @@ export default class TodoList extends Component<props, Istate> {
                     <p>{`${this.state.completed} remaining out of ${this.state.todoList.length} tasks`}</p>
                     <ul>
                         {this.state.todoList.map((item: string, index: number) => (
-                            <a href="#" key={index} onClick={() => this.strike(item)}>
+                            <a href="/TodoList" key={index} onClick={() => this.strike(item)}>
                                 <li id={item}>
                                 {item}
                                 </li>

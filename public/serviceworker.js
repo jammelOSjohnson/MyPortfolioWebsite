@@ -19,9 +19,8 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request)
             .then(() => {
-                console.log('about to fetch')
                 return fetch(event.request)
-                        .catch(() => {console.log('returning offline'); caches.match('offline.html')})
+                        .catch(() => caches.match('offline.html'))
             })
     )
 });
