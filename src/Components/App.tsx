@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { HomeScreen } from '../Screens/Home/HomeScreen';
 import Counter from '../Screens/Counter';
 import TodoList from '../Screens/TodoList';
-//import { Header } from './Header';
-//import { Footer } from './Footer';
+import { Header } from './Header';
+import { Footer } from './Footer';
 //Import provider
 
 
@@ -22,11 +22,11 @@ const App: React.FC = function App() {
   return (
     <>
       <Router>
-        {/* <Header/> */}
+        <Header/>
           <Route path="/" exact component={HomeScreen} />
           <Route path="/Counter" exact component={Counter} />
           <Route path="/TodoList" exact component={TodoList} />
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     </>
   );
