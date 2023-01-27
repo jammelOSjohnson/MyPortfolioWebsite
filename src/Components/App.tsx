@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import { HomeScreen } from '../Screens/Home/HomeScreen';
+import Counter from '../Screens/Counter';
+import TodoList from '../Screens/TodoList';
 import { Header } from './Header';
 import { Footer } from './Footer';
 //Import provider
-
-
-import { useEffect } from 'react';
 
 
 
@@ -25,6 +24,8 @@ const App: React.FC = function App() {
       <Router>
         <Header/>
           <Route path="/" exact component={HomeScreen} />
+          <Route path="/Counter" exact component={Counter} />
+          <Route path="/TodoList" exact component={TodoList} />
         <Footer/>
       </Router>
     </>
